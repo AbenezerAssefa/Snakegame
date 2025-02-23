@@ -1,0 +1,4 @@
+C:\Users\a_gudeta\source\repos\gggSnake\gggSnake\obj\Debug\net8.0\gggSnake.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a_gudeta\source\repos\gggSnake\gggSnake\obj\Debug\net8.0\gggSnake.AssemblyInfoInputs.cache
+C:\Users\a_gudeta\source\repos\gggSnake\gggSnake\obj\Debug\net8.0\gggSnake.AssemblyInfo.cs
+C:\Users\a_gudeta\source\repos\gggSnake\gggSnake\obj\Debug\net8.0\gggSnake.csproj.CoreCompileInputs.cache
