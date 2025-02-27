@@ -1,23 +1,39 @@
-# Clean Code Principles - Refactoring Code
+# 📌 Snake Game - Clean Code Refactored 🐍
 
-This project focuses on refactoring code by applying key Clean Code principles.
+This repository contains a **refactored** version of the classic **Snake Game**, adhering to **Clean Code principles** for better readability, maintainability, and scalability.
 
-## Principles Applied:
-1. **Meaningful Names**:
-   - Renamed variables, methods, and classes to have meaningful, descriptive names. This improves code understanding, readability, and maintainability.
-   
-2. **Divide Code into Methods**:
-   - Split large chunks of code into smaller, more focused methods, each with a clear and singular purpose. This enhances readability and makes the code easier to test.
+## 📖 Table of Contents
+- [Features](#features)
+- [Clean Code Principles Applied](#clean-code-principles-applied)
+- [Installation & Setup](#installation--setup)
+- [How to Play](#how-to-play)
+- [License](#license)
 
-3. **Divide Code into Classes**:
-   - Refactored the code into appropriate classes, grouping related methods together. This improves code organization, encapsulation, and reduces complexity.
+## ✨ Features
+✔️ **Difficulty Levels** - Choose from **Easy, Medium, and Hard** for different speeds.  
+✔️ **Game Replay Option** - Retry after a **game over** without restarting the program.  
+✔️ **Encapsulation & Modularity** - Organized into **separate classes** for better maintainability.  
+✔️ **Improved Input Handling** - Dedicated method for **keyboard input processing**.  
+✔️ **Better Collision Handling** - Snake and berry collisions managed efficiently.
 
-## Features:
-- Improved code structure by using meaningful names, dividing the code into methods and classes.
-- **Each method/class has a single responsibility**, making the code easier to read and test.
-- **Improved maintainability** by adhering to Clean Code principles.
+## 🛠 Clean Code Principles Applied
 
-## Instructions:
+### 1️⃣ Meaningful Names
+- Variables, methods, and classes have **descriptive and intuitive** names.
+- Example: `pixel` replaced with **`Snake`** and **`Berry`** classes for better clarity.
+
+### 2️⃣ Divide Code into Methods
+- Large code blocks refactored into **smaller, self-contained methods**.
+- Example: Methods like `CollidesWith()`, `HandleInput()`, `Move()`, and `Draw()` improve modularity.
+
+### 3️⃣ Divide Code into Classes
+- Code is split into **multiple classes** for better organization:
+  - **`Snake.cs`** - Manages snake movement and collision detection.
+  - **`Berry.cs`** - Handles berry generation and collisions.
+  - **`Game.cs`** - Controls the game loop and difficulty settings.
+  - **`Program.cs`** - Manages game execution.
+
+## 🚀 Installation & Setup
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/AbenezerAssefa/FinalSnakeGame.git
+   ```sh
+   git clone https://github.com/AbenezerAssefa/SnakeGame.git
